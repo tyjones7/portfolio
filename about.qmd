@@ -23,32 +23,40 @@ Write a compelling narrative about your background, education, and what drives y
 
 ### Education
 
-- **Degree Name**, University Name (Year)
-- **Relevant Coursework**: List key courses related to product management, analytics, or business
-- **Academic Achievements**: Honor societies, relevant projects, or awards
+- **Bachelor of Science in Strategic Management, Product Management Track**, Brigham Young University (2024–Present)
+  - GPA 3.85 / 4.00 | Dean’s List
+- **Relevant Coursework**: Creating Digital Products with AI, Strategy Analytics, Advanced Competitive Strategy
+- **Academic Achievements**: Regents, Academic Scholarship & CTE Pathway, Merit-based Scholarship
 
 ### Experience
 
-#### Job/Internship Title - Company Name
-*Dates*
+#### Digital Marketing & Analytics Specialist - Missionary Training Center
+*Jul 2025 – Dec 2025*
 
-- Key accomplishment or responsibility
-- Another achievement with quantifiable results
-- Skills or technologies used
+- Analyzed 15+ metrics across 5 teams to recommend data-driven optimizations for campaigns and internal products
+- Managed 50+ ad campaigns weekly and ran A/B tests, driving a 34% increase in leads while reducing costs by 10%
+- Collaborated with 10-member multilingual team, optimizing workflow and improving campaign efficiency by 15%
 
-#### Another Position - Company Name
-*Dates*
+#### Lead of Operations - G&P Cleaning Services
+*Apr 2025 - Present*
 
-- What you contributed to the organization
-- Projects you worked on
-- Impact you made
+- Streamlined service workflows across 2 offices, increasing efficiency 20% while maintaining 99% client satisfaction
+- Led feedback sessions with construction company clients to identify pains and implement process improvements
+- Tracked operational metrics and reported performance insights to leadership for data-driven staffing decisions
+
+#### Sales Representative - ION Solar
+*Mar 2025 – Jul 2025*
+
+- Prospected and qualified 100+ potential customers through relationship-building and discovery conversations
+- Increased weekly lead generation by 10% by A/B testing sales messaging and adopting a rapid feedback loop
+- Contributed to 12% team growth by recruiting new sales reps and supporting their onboarding and training
 
 ### Skills & Interests
 
 **Technical Skills**
-- Programming languages (Python, R, SQL)
-- Analytics tools (Tableau, Power BI, Google Analytics)
-- Product management tools (Jira, Confluence, Figma)
+- Programming languages: Python, HTML/CSS, SQL, R
+- Tools: Tableau, Excel (Pivot Tables/VBA), Git, AI Agent Development (LLMs, APIs)
+- Product Management: Roadmapping, Customer Discovery, A/B Testing, Prototyping, User Research
 
 **Soft Skills**
 - Communication and presentation
@@ -56,7 +64,7 @@ Write a compelling narrative about your background, education, and what drives y
 - Strategic thinking and problem-solving
 
 **Interests**
-Share what you're passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.
+Skiing, Hiking/Camping, Pickleball, Golf
 
 ### What's Next
 
