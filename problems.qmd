@@ -1,0 +1,40 @@
+---
+title: "Problems I'm Exploring"
+---
+
+I believe that the best products are born from a deep understanding of real friction points. Here are five problems I’ve personally encountered that I find worth solving.
+
+## 1. The "Syllabus Silo" Effect
+**The Problem**: University course data is trapped in static PDFs (syllabi) and isolated learning management systems (Canvas, Blackboard). A student taking 5 classes has 5 different schedules, 5 different grading policies, and no unified view of their workload.
+
+**Why It Matters**: This fragmentation forces students to manually aggregate data or risk missing deadlines. It creates unnecessary cognitive load that detracts from actual learning.
+
+**The Opportunity**: If we can liberate this data through scraping or API integrations, we can build intelligent agents that proactively manage a student's time, predicting crunch weeks before they happen.
+
+## 2. The AI Implementation Gap
+**The Problem**: There is a widening chasm between what AI models *can* do (technical capability) and how businesses actually *use* them (operational reality). Many organizations treat AI as a magic feature rather than a workflow reimplementation.
+
+**Why It Matters**: I see this in student projects and hackathons: great tech, poor user integration. Without bridging this gap, powerful tools remain novelties rather than drivers of economic value.
+
+**The Opportunity**: The next generation of PMs won't just "add AI"; they will redesign entire business processes (like customer support or data analysis) to be "AI-native" rather than "AI-augmented."
+
+## 3. Real-Time Quality Control in Physical Services
+**The Problem**: In service-based businesses (like the cleaning operations I managed), quality control is often retrospective. You only know a job was done poorly *after* the client complains.
+
+**Why It Matters**: This lag time damages reputation and requires expensive specialized recovery efforts. In my experience, 90% of client churn comes from preventable errors that went unnoticed in the moment.
+
+**The Opportunity**: leveraging mobile-first reporting or computer vision to provide "proof of work" in real-time could transform trust in the service industry, moving from "trust me" to "let me show you."
+
+## 4. Context Switching for Student-Builders
+**The Problem**: The modern ambitious student is expected to be a full-time scholar, a part-time intern, and a founder simultaneously. The mental toll of switching contexts—from "Deep Strategy" to "Quiz Memorization"—is immense.
+
+**Why It Matters**: I live this daily. The friction of resetting mental context kills momentum. Current productivity tools are general-purpose; they don't account for the radical shifts in cognitive demands that student-builders face.
+
+**The Opportunity**: A workspace that is "context-aware"—automatically surfacing the right files, tabs, and AI context based on the current "mode" (e.g., Study Mode vs. Build Mode)—could unlock massive productivity gains.
+
+## 5. Data Overload in Digital Marketing
+**The Problem**: At the MTC, I saw that having *more* data often led to *less* clarity. We tracked 15+ metrics, but decision-making paralyzed because the signal-to-noise ratio was too low.
+
+**Why It Matters**: Dashboard fatigue is real. When teams are presented with too many numbers, they default to gut feelings, rendering the analytics pipeline useless.
+
+**The Opportunity**: Moving from "Descriptive Analytics" (what happened) to "Prescriptive Analytics" (what should we do) is the key. Tools that summarize trends into plain-English recommendations are infinitely more valuable than comprehensive spreadsheets.

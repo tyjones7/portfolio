@@ -1,24 +1,24 @@
 ---
-title: "Name of the application I have published for Homework 1"
-date: "2024-09-15"
-categories: [GitHub, Vercel, Claude Code]
+title: "Daily Spark Quotes"
+date: "2026-01-29"
+categories: [GitHub, Vercel, HTML/CSS/JS]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+**Daily Spark Quotes** is an interactive web application designed to provide daily inspiration through a curated collection of quotes. The app features a clean, modern interface and allows users to generate new quotes on demand.
 
-The primary purpose of this app is to:
-
-- ....
-- ....
+### Key Features
+- **Random Quote Generation**: valid JavaScript logic to fetch and display unique quotes.
+- **Responsive Design**: optimized for both desktop and mobile viewing.
+- **Instant Sharing**: built-in functionality to copy or share quotes (if applicable to the specific build).
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href="https://daily-spark-quotes-1704t685k-tyler-jones-projects-cd83f9d7.vercel.app"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -27,7 +27,7 @@ The primary purpose of this app is to:
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
+     href="https://github.com/tyjones7/daily-spark-quotes"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
@@ -35,20 +35,25 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
-        style="width:100%; height:900px; border:none;"
-        allowfullscreen>
-</iframe>
+<div class="ratio ratio-16x9">
+  <iframe src="https://daily-spark-quotes-1704t685k-tyler-jones-projects-cd83f9d7.vercel.app" title="Daily Spark Quotes" allowfullscreen></iframe>
+</div>
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+**Role**: Frontend Developer
+**Stack**: HTML, CSS, JavaScript, Vercel
 
-Deployment: GitHub Pages + Vercel
-
-Tools Used:
--   Claude Code
+### Development Process
+This application was built to demonstrate proficiency in core web technologies and deployment workflows.
+1.  **Design**: Created a minimalist aesthetic to focus on the content.
+2.  **Implementation**: Wrote clean, semantic HTML and CSS for styling.
+3.  **Deployment**: Configured continuous deployment via Vercel for instant updates.
 
 ## Product Requirements Document
 
-Paste in the PRD that you submitted to Claude Code
+### Problem
+People often need a quick burst of motivation or a "spark" to start their day, but searching for quotes online can be distracting and cluttered with ads.
+
+### Solution
+A dedicated, distraction-free "Motivation Engine" that delivers high-quality quotes instantly with a single click.
