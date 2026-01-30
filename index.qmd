@@ -1,11 +1,12 @@
 ---
 title: ""
 pagetitle: "Tyler Jones | Product Management Portfolio"
+toc: false
 ---
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="Tyler Jones" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="Tyler Jones" width="180">
 
 <h1>Tyler Jones</h1>
 <p style="color: var(--color-text-muted); margin-bottom: 1.5rem; font-size: 1.1rem;">Product Management &amp; Strategy</p>
@@ -19,6 +20,12 @@ pagetitle: "Tyler Jones | Product Management Portfolio"
 
 :::
 
+## Welcome
+
+This portfolio showcases my journey into product management—from hands-on projects I've built to the real-world problems I'm passionate about solving. I'm a strategic thinker who loves turning complex challenges into simple, user-centered solutions.
+
+Here you'll find my featured projects, the friction points I'm actively exploring, and my background in analytics, operations, and digital product development. Whether you're a potential collaborator, employer, or fellow builder, I hope this gives you a sense of how I think and what I bring to the table.
+
 ## Featured Projects
 
 ::: {.g-col-12 .g-col-md-6 .card}
@@ -27,4 +34,3 @@ pagetitle: "Tyler Jones | Product Management Portfolio"
 A distraction-free web app that delivers inspiring quotes instantly with a single click.
 
 :::
-

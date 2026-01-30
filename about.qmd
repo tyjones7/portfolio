@@ -4,7 +4,7 @@ title: "About Me"
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="Tyler Jones" class="rounded-circle mb-3" width="160">
+<img src="images/profile.jpg" alt="Tyler Jones" width="180">
 
 <h1>Tyler Jones</h1>
 
@@ -19,12 +19,16 @@ title: "About Me"
 
 ## Background
 
-Write a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.
+I'm a product-minded strategist studying at Brigham Young University, where I'm pursuing a degree in Strategic Management with a focus on Product Management. My path here wasn't traditional—I've worn hats as a digital marketer, operations lead, and sales rep, each role sharpening my ability to understand users, optimize processes, and drive measurable results.
+
+What draws me to product management is the intersection of empathy and execution. I love digging into why something isn't working, mapping out the friction, and building solutions that actually stick. Whether it's analyzing campaign metrics at the Missionary Training Center or streamlining workflows for a cleaning services company, I've consistently found myself gravitating toward the question: *How can we make this better for the people using it?*
+
+I'm particularly energized by the potential of AI to transform how we build and deliver products. I've been experimenting with LLMs, APIs, and agent development—not just as tools, but as a new paradigm for solving problems that were previously intractable.
 
 ### Education
 
 - **Bachelor of Science in Strategic Management, Product Management Track**, Brigham Young University (2024–Present)
-  - GPA 3.85 / 4.00 | Dean’s List
+  - GPA 3.85 / 4.00 | Dean's List
 - **Relevant Coursework**: Creating Digital Products with AI, Strategy Analytics, Advanced Competitive Strategy
 - **Academic Achievements**: Regents, Academic Scholarship & CTE Pathway, Merit-based Scholarship
 
@@ -54,18 +58,29 @@ Write a compelling narrative about your background, education, and what drives y
 ### Skills & Interests
 
 **Technical Skills**
+
 - Programming languages: Python, HTML/CSS, SQL, R
 - Tools: Tableau, Excel (Pivot Tables/VBA), Git, AI Agent Development (LLMs, APIs)
 - Product Management: Roadmapping, Customer Discovery, A/B Testing, Prototyping, User Research
 
 **Soft Skills**
+
 - Communication and presentation
 - Cross-functional collaboration
 - Strategic thinking and problem-solving
 
 **Interests**
+
 Skiing, Hiking/Camping, Pickleball, Golf
 
 ### What's Next
 
-Describe your career goals and what type of opportunities you're seeking. This helps visitors understand how they might work with you or whether you'd be a good fit for their organization.
+I'm seeking product management roles where I can combine my analytical background with my passion for building user-centered solutions. I thrive in environments that value experimentation, move quickly, and aren't afraid to challenge conventional approaches.
+
+Specifically, I'm drawn to opportunities in:
+
+- **AI-native products** – Companies rethinking workflows from the ground up with AI, not just adding it as a feature
+- **B2B SaaS** – Solving complex problems for businesses with data-driven, iterative product development
+- **Early-stage startups** – Where I can wear multiple hats, learn rapidly, and have direct impact on product direction
+
+If you're building something interesting and think I might be a good fit, I'd love to connect.
