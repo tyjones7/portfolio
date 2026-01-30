@@ -21,8 +21,8 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
-### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel. 
+### [Daily Spark Quotes](projects/project-1.qmd)
+A distraction-free web app that delivers inspiring quotes instantly with a single click. 
 
 :::
 

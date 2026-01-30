@@ -6,7 +6,7 @@ categories: [GitHub, Vercel, HTML/CSS/JS]
 
 ## Overview
 
-**Daily Spark Quotes** is an interactive web application designed to provide daily inspiration through a curated collection of quotes. The app features a clean, modern interface and allows users to generate new quotes on demand.
+**Daily Spark Quotes** is a web application designed to provide daily inspiration through a curated collection of quotes. The app features a clean, modern interface and allows users to generate new quotes on demand.
 
 ### Key Features
 - **Random Quote Generation**: valid JavaScript logic to fetch and display unique quotes.
@@ -18,7 +18,7 @@ categories: [GitHub, Vercel, HTML/CSS/JS]
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://daily-spark-quotes-1704t685k-tyler-jones-projects-cd83f9d7.vercel.app"
+     href="https://daily-spark-quotes.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -36,7 +36,7 @@ categories: [GitHub, Vercel, HTML/CSS/JS]
 </div>
 
 <div class="ratio ratio-16x9">
-  <iframe src="https://daily-spark-quotes-1704t685k-tyler-jones-projects-cd83f9d7.vercel.app" title="Daily Spark Quotes" allowfullscreen></iframe>
+  <iframe src="https://daily-spark-quotes.vercel.app/" title="Daily Spark Quotes" allowfullscreen></iframe>
 </div>
 
 ## Technical Details
