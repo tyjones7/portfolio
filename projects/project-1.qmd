@@ -15,6 +15,7 @@ categories: [GitHub, Vercel, HTML/CSS/JS]
 
 ## Live Product Demo
 
+```{=html}
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
@@ -34,10 +35,13 @@ categories: [GitHub, Vercel, HTML/CSS/JS]
     View source on GitHub
   </a>
 </div>
+```
 
+```{=html}
 <div class="ratio ratio-16x9">
   <iframe src="https://daily-spark-quotes.vercel.app/" title="Daily Spark Quotes" allowfullscreen></iframe>
 </div>
+```
 
 ## Technical Details
 
