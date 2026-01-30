@@ -1,5 +1,6 @@
 ---
-title: "Welcome to My Product Management Portfolio"
+title: ""
+pagetitle: "Tyler Jones | Product Management Portfolio"
 ---
 
 ::: {.hero-banner .text-center}
@@ -7,6 +8,7 @@ title: "Welcome to My Product Management Portfolio"
 <img src="images/profile.jpg" alt="Tyler Jones" class="rounded-circle mb-3" width="160">
 
 <h1>Tyler Jones</h1>
+<p style="color: var(--color-text-muted); margin-bottom: 1.5rem; font-size: 1.1rem;">Product Management &amp; Strategy</p>
 
 <a href="https://www.linkedin.com/in/tylermichaeljones/" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
@@ -22,7 +24,7 @@ title: "Welcome to My Product Management Portfolio"
 ::: {.g-col-12 .g-col-md-6 .card}
 
 ### [Daily Spark Quotes](projects/project-1.qmd)
-A distraction-free web app that delivers inspiring quotes instantly with a single click. 
+A distraction-free web app that delivers inspiring quotes instantly with a single click.
 
 :::
 
