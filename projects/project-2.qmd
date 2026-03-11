@@ -1,179 +1,232 @@
 ---
-title: "Business Case Presentation"
-description: "Pitch deck and strategic business case for new product development"
-date: "2024-10-01"
-image: ../images/project2-preview.jpg
-categories: [Business Strategy, Pitch Deck, Product Development]
+title: "CampusAI — AI Scheduling Assistant"
+date: "2026-03-11"
+categories: [AI, React, FastAPI, Supabase, Python]
 ---
 
-## Assignment Overview
+## Overview
 
-This project focused on developing a comprehensive business case and pitch presentation for a new product opportunity. The assignment required identifying a market need, analyzing the opportunity, and presenting a compelling case for why the product should be built and funded.
+**CampusAI** is an AI-powered scheduling assistant built for BYU students. It automatically pulls assignments from Canvas and Learning Suite into a single unified dashboard, then uses AI to build a personalized, prioritized study plan — so students stop wasting time deciding what to work on and actually get things done.
 
-## Executive Summary
+### Core Features
+- **Unified assignment sync** — connects to both Canvas (REST API) and Learning Suite (iCal feeds), pulling all deadlines into one place automatically
+- **AI-generated study plans** — Groq-powered AI scores every assignment by priority, estimates time required, and suggests when to start
+- **Smart scheduling** — accounts for the student's class schedule, preferred study times, and work style (spread-out vs. batch)
+- **Calendar export** — accepted plans export directly to Google Calendar or download as an .ics file
+- **Live AI chat** — streaming assistant that re-prioritizes your week mid-semester when life gets in the way
 
-**Product Concept**: [Brief description of your proposed product/service]
+## Live Product
 
-**Market Opportunity**: [Size and growth potential of target market]
+```{=html}
+<div class="d-flex justify-content-center gap-3 my-4 flex-wrap">
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://ai-scheduling-assistant-jade.vercel.app"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App
+  </a>
 
-**Investment Required**: [Estimated funding needed]
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/tyjones7/AISchedulingAssistant"
+     target="_blank" rel="noopener"
+     aria-label="View source on GitHub">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View on GitHub
+  </a>
 
-**Expected Return**: [Projected revenue and profitability timeline]
+  <a class="btn btn-outline-secondary d-inline-flex align-items-center"
+     href="https://github.com/tyjones7/AISchedulingAssistant/blob/main/docs/product-spec.md"
+     target="_blank" rel="noopener"
+     aria-label="Read product spec">
+    <i class="fa-solid fa-file-lines me-2" aria-hidden="true"></i>
+    Product Spec
+  </a>
+</div>
+```
 
-**Recommendation**: [Clear go/no-go recommendation with supporting rationale]
+## Screenshots
 
-## Problem Statement
+```{=html}
+<div class="row g-3 my-2">
 
-### Market Problem
-- **Issue Identification**: What specific problem does your product solve?
-- **Target Audience**: Who experiences this problem most acutely?
-- **Current Solutions**: How are people solving this problem today?
-- **Gap Analysis**: What's missing from existing solutions?
+  <div class="col-12">
+    <figure class="figure w-100">
+      <img src="../images/campusai-dashboard.png"
+           class="figure-img img-fluid rounded shadow-sm w-100"
+           alt="CampusAI dashboard showing assignment timeline and AI study plan sidebar"
+           onerror="this.closest('figure').style.display='none'">
+      <figcaption class="figure-caption text-center">
+        Main dashboard — unified assignment timeline (left) with AI priority plan and chat sidebar (right)
+      </figcaption>
+    </figure>
+  </div>
 
-### Quantifying the Problem
-- **Market Size**: How many people/organizations face this issue?
-- **Economic Impact**: What does this problem cost users currently?
-- **Urgency**: Why is now the right time to solve this problem?
-- **Evidence**: What data supports the existence and scale of this problem?
+  <div class="col-md-6">
+    <figure class="figure w-100">
+      <img src="../images/campusai-onboarding.png"
+           class="figure-img img-fluid rounded shadow-sm w-100"
+           alt="CampusAI onboarding flow"
+           onerror="this.closest('figure').style.display='none'">
+      <figcaption class="figure-caption text-center">
+        Onboarding — students connect Canvas and Learning Suite in under 5 minutes
+      </figcaption>
+    </figure>
+  </div>
 
-## Market Analysis
+  <div class="col-md-6">
+    <figure class="figure w-100">
+      <img src="../images/campusai-ai-plan.png"
+           class="figure-img img-fluid rounded shadow-sm w-100"
+           alt="CampusAI AI-generated study plan"
+           onerror="this.closest('figure').style.display='none'">
+      <figcaption class="figure-caption text-center">
+        AI study plan — priority scores, estimated time, and suggested start dates
+      </figcaption>
+    </figure>
+  </div>
 
-### Industry Overview
-- **Market Size**: Total Addressable Market (TAM), Serviceable Addressable Market (SAM)
-- **Growth Trends**: Historical growth rates and future projections
-- **Key Drivers**: What factors are driving market growth?
-- **Market Maturity**: Where is this market in its lifecycle?
+  <div class="col-md-6">
+    <figure class="figure w-100">
+      <img src="../images/campusai-chat.png"
+           class="figure-img img-fluid rounded shadow-sm w-100"
+           alt="CampusAI AI chat"
+           onerror="this.closest('figure').style.display='none'">
+      <figcaption class="figure-caption text-center">
+        AI chat — streaming responses for mid-week re-prioritization
+      </figcaption>
+    </figure>
+  </div>
 
-### Competitive Landscape
-- **Direct Competitors**: Who offers similar solutions?
-- **Indirect Competitors**: What alternative approaches exist?
-- **Competitive Advantages**: How will you differentiate?
-- **Market Positioning**: Where will you fit in the competitive landscape?
+  <div class="col-md-6">
+    <figure class="figure w-100">
+      <img src="../images/campusai-settings.png"
+           class="figure-img img-fluid rounded shadow-sm w-100"
+           alt="CampusAI settings page"
+           onerror="this.closest('figure').style.display='none'">
+      <figcaption class="figure-caption text-center">
+        Settings — manage iCal feeds, study preferences, and weekly busy blocks
+      </figcaption>
+    </figure>
+  </div>
 
-### Customer Analysis
-- **Target Segments**: Primary and secondary customer groups
-- **User Personas**: Detailed profiles of ideal customers
-- **Buying Behavior**: How do customers make purchase decisions?
-- **Price Sensitivity**: What are customers willing to pay?
+</div>
+```
 
-## Solution Overview
+## Product Specification
 
-### Product Vision
-- **Core Value Proposition**: What unique value do you provide?
-- **Key Features**: What are the essential product capabilities?
-- **User Experience**: How will customers interact with your product?
-- **Differentiation**: What makes your solution superior?
+**Job to be Done:** Help overwhelmed students turn messy assignment lists into a real, optimized, auto-updating plan — so they feel in control, avoid last-minute stress, and perform better academically.
 
-### Product Strategy
-- **Development Approach**: Build vs. buy vs. partner decisions
-- **Technology Stack**: What technical foundation will you use?
-- **Scalability**: How will the product grow with demand?
-- **Innovation**: What makes this solution innovative?
+**Ideal Customer:** Emily Carter — a 20-year-old BYU sophomore/junior taking 5–6 courses, active in clubs, possibly working part-time. Already uses Canvas and Learning Suite but feels her system is barely holding together.
 
-## Business Model
+### MoSCoW-Prioritized User Stories
 
-### Revenue Model
-- **Pricing Strategy**: How will you price your product?
-- **Revenue Streams**: What are your sources of income?
-- **Customer Acquisition**: How will you attract customers?
-- **Unit Economics**: What are your cost and revenue per customer?
+```{=html}
+<div class="table-responsive my-3">
+<table class="table table-bordered align-middle">
+  <thead class="table-dark">
+    <tr>
+      <th style="width:130px">Priority</th>
+      <th>User Story</th>
+      <th>Why It Matters</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="badge bg-danger">Must Have</span></td>
+      <td><strong>Assignment aggregation</strong> — Canvas + Learning Suite in one place</td>
+      <td>Zero value without this; students can't plan what they can't see</td>
+    </tr>
+    <tr>
+      <td><span class="badge bg-danger">Must Have</span></td>
+      <td><strong>AI-generated study plan</strong> — prioritized, time-estimated, personalized</td>
+      <td>Core differentiator from a plain calendar app</td>
+    </tr>
+    <tr>
+      <td><span class="badge bg-warning text-dark">Should Have</span></td>
+      <td><strong>Assignment status tracking</strong> — mark in-progress, submitted, unavailable</td>
+      <td>Without this the AI plan degrades fast and becomes noise</td>
+    </tr>
+    <tr>
+      <td><span class="badge bg-warning text-dark">Should Have</span></td>
+      <td><strong>Personalized onboarding</strong> — complete setup in under 5 minutes</td>
+      <td>Users churn before experiencing value if setup is painful</td>
+    </tr>
+    <tr>
+      <td><span class="badge bg-info text-dark">Could Have</span></td>
+      <td><strong>AI chat for mid-week re-planning</strong> — adjust the plan when life changes</td>
+      <td>High retention value, but core plan feature works without it</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+```
 
-### Financial Projections
-- **Revenue Forecast**: 3-5 year revenue projections
-- **Cost Structure**: Development, operational, and marketing costs
-- **Profitability Timeline**: When will you reach break-even?
-- **Investment Requirements**: Funding needed for different milestones
+### Success Metrics
 
-### Go-to-Market Strategy
-- **Launch Strategy**: How will you introduce the product?
-- **Marketing Channels**: How will you reach customers?
-- **Sales Strategy**: Direct, partner, or hybrid approach?
-- **Customer Success**: How will you ensure customer satisfaction?
+```{=html}
+<div class="table-responsive my-3">
+<table class="table table-sm table-bordered">
+  <thead class="table-secondary">
+    <tr><th>Metric</th><th>Target</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Assignments synced on first use</td><td>≥ 20 per user</td></tr>
+    <tr><td>AI plan generated and applied</td><td>≥ 60% of active users</td></tr>
+    <tr><td>Day-7 retention</td><td>≥ 40% of signups</td></tr>
+    <tr><td>Onboarding completion rate</td><td>≥ 75%</td></tr>
+    <tr><td>Sync error rate</td><td>&lt; 5% of attempts</td></tr>
+  </tbody>
+</table>
+</div>
+```
 
-## Implementation Plan
+```{=html}
+<div class="d-flex justify-content-center my-3">
+  <a class="btn btn-outline-primary d-inline-flex align-items-center"
+     href="https://github.com/tyjones7/AISchedulingAssistant/blob/main/docs/product-spec.md"
+     target="_blank" rel="noopener">
+    <i class="fa-solid fa-arrow-up-right-from-square me-2" aria-hidden="true"></i>
+    Read Full Product Spec
+  </a>
+</div>
+```
 
-### Development Roadmap
-- **Phase 1**: MVP development and initial testing
-- **Phase 2**: Full product launch and market entry  
-- **Phase 3**: Scale and expansion opportunities
-- **Milestones**: Key deliverables and timeline
+## User Feedback
 
-### Resource Requirements
-- **Team Structure**: What roles and skills are needed?
-- **Technology Infrastructure**: What systems and tools are required?
-- **Capital Requirements**: Funding needs by phase
-- **Strategic Partnerships**: What alliances will accelerate success?
+I tested CampusAI with BYU students across different majors and class loads. Here's what I learned.
 
-### Risk Analysis
-- **Market Risks**: What could change in the market?
-- **Technical Risks**: What development challenges might arise?
-- **Competitive Risks**: How might competitors respond?
-- **Mitigation Strategies**: How will you address each risk?
+### What Worked
 
-## Success Metrics
+**The aggregation was immediately valuable.** Every tester's first reaction to seeing their Canvas and Learning Suite assignments in one list was relief. One student said *"I didn't realize how much mental energy I was spending just keeping track of where everything lived."* The unified view alone felt worth the setup.
 
-### Key Performance Indicators
-- **Customer Metrics**: Acquisition, retention, satisfaction
-- **Business Metrics**: Revenue, profitability, market share
-- **Product Metrics**: Usage, engagement, feature adoption
-- **Operational Metrics**: Efficiency, quality, scalability
+**The AI plan surfaced things people had mentally buried.** Several testers noticed the AI flagged assignments they had been unconsciously avoiding. The priority score gave them "permission" to deprioritize low-stakes tasks and focus on what actually mattered that week.
 
-### Success Criteria
-- **Short-term (6 months)**: [Specific measurable goals]
-- **Medium-term (1-2 years)**: [Growth and market position targets]
-- **Long-term (3-5 years)**: [Vision achievement and expansion goals]
+**Onboarding was smoother than expected.** Testers completed setup in 3–4 minutes once they knew where to find their iCal URLs. Inline step-by-step instructions significantly reduced confusion compared to the first version, which pointed users to external documentation.
 
-## Investment Recommendation
+### What Needs Work
 
-### Case for Investment
-1. **Market Opportunity**: Large, growing market with clear need
-2. **Competitive Advantage**: Defensible differentiation and positioning
-3. **Team Capability**: Right skills and experience to execute
-4. **Financial Returns**: Attractive risk-adjusted return potential
-5. **Strategic Fit**: Aligns with organizational goals and capabilities
+**The Canvas token step created hesitation.** The most common friction point was uncertainty about what data was being accessed. Students wanted to understand exactly what the token could read before sharing it. Adding a clear "read-only, no submission access" explanation reduced drop-off in later testing.
 
-### Expected Outcomes
-- **Revenue Impact**: [Projected revenue contribution]
-- **Market Position**: [Expected market share and positioning]
-- **Strategic Value**: [Broader organizational benefits]
-- **Growth Platform**: [Future expansion opportunities]
+**The AI over-weighted due dates and under-weighted effort.** A few testers felt the plan treated a 20-page paper and a 10-question quiz identically if their due dates were the same. Future iterations should let students flag estimated effort at assignment creation, or let the AI infer it from assignment type and point value.
 
-## Next Steps
+**Status updates require a habit change.** The app works best when students mark assignments as submitted, but most testers forgot to do this consistently. The AI would resurface already-done work as urgent the next day. A prompt when a due date passes ("Did you finish this?") could close this loop automatically.
 
-### Immediate Actions (30 days)
-- [ ] Secure initial funding/approval
-- [ ] Finalize team structure and hiring
-- [ ] Complete technical feasibility analysis
-- [ ] Develop detailed project plan
+### Key Takeaway
 
-### Short-term Milestones (90 days)
-- [ ] Complete market validation research
-- [ ] Build MVP and conduct user testing
-- [ ] Establish key partnerships
-- [ ] Refine go-to-market strategy
+The core loop — sync, plan, work, update — works. The biggest barriers to retention are the trust gap at onboarding (sharing credentials) and the friction of keeping assignment statuses current. Future iterations should focus on making status updates feel automatic rather than a manual chore.
 
-### Long-term Goals (1 year)
-- [ ] Launch product to target market
-- [ ] Achieve customer acquisition targets
-- [ ] Demonstrate product-market fit
-- [ ] Plan expansion opportunities
+## Technical Details
 
-## Appendices
+**Role:** Solo developer (full-stack)
+**Stack:** React + Vite · FastAPI · Supabase PostgreSQL · Groq LLaMA · Deployed on Vercel + Render
 
-### Supporting Data
-- Market research reports and analysis
-- Customer interview findings
-- Competitive analysis details
-- Financial model assumptions
+### Key Technical Decisions
 
-### Presentation Materials
-- **Slide Deck**: [Link to presentation slides]
-- **Executive Summary**: [One-page business case summary]  
-- **Financial Model**: [Detailed financial projections]
-- **Supporting Research**: [Market data and analysis]
+**iCal over Selenium for Learning Suite** — Learning Suite exposes per-course iCal feeds that don't require Duo MFA or a browser session. Parsing these with the `icalendar` Python library is fast, stateless, and works in any deployment environment — no headless Chrome needed.
 
----
+**Groq LLaMA for AI** — Used two models for different tasks: `llama-3.3-70b-versatile` for chat and daily briefings (quality matters), `llama-3.1-8b-instant` for batch priority scoring (speed matters more). Responses stream over SSE so the interface feels responsive even for longer answers.
 
-**Skills Demonstrated:** Business Strategy, Market Analysis, Financial Modeling, Presentation Design, Strategic Planning
+**Supabase Row Level Security** — All data is scoped per user at the database level, not just in application code. A bug in the backend cannot leak one student's assignments to another.
 
-**Tools Used:** PowerPoint/Keynote, Excel/Google Sheets, Market Research Databases, Survey Tools
+**Per-user Canvas tokens** — Canvas personal access tokens are stored encrypted per user in Supabase, so multiple students can use the app simultaneously with their own Canvas accounts.
