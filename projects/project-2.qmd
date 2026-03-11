@@ -54,46 +54,46 @@ categories: [AI, React, FastAPI, Supabase, Python]
     <figure class="figure w-100">
       <img src="../images/campusai-dashboard.png"
            class="figure-img img-fluid rounded shadow-sm w-100"
-           alt="CampusAI dashboard showing assignment timeline and AI study plan sidebar"
+           alt="CampusAI dashboard showing the assignment timeline grouped by due date with an AI plan sidebar"
            onerror="this.closest('figure').style.display='none'">
       <figcaption class="figure-caption text-center">
-        Main dashboard — unified assignment timeline (left) with AI priority plan and chat sidebar (right)
+        Main dashboard — assignments from all courses grouped by due date, with Today's AI Plan in the sidebar
       </figcaption>
     </figure>
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-4">
     <figure class="figure w-100">
-      <img src="../images/campusai-onboarding.png"
+      <img src="../images/campusai-onboarding-welcome.png"
            class="figure-img img-fluid rounded shadow-sm w-100"
-           alt="CampusAI onboarding flow"
+           alt="CampusAI welcome screen"
            onerror="this.closest('figure').style.display='none'">
       <figcaption class="figure-caption text-center">
-        Onboarding — students connect Canvas and Learning Suite in under 5 minutes
+        Welcome screen — clear value prop before any setup required
       </figcaption>
     </figure>
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-4">
     <figure class="figure w-100">
-      <img src="../images/campusai-ai-plan.png"
+      <img src="../images/campusai-onboarding-source.png"
            class="figure-img img-fluid rounded shadow-sm w-100"
-           alt="CampusAI AI-generated study plan"
+           alt="CampusAI class source selector — Canvas only, Learning Suite, Both, or Not sure"
            onerror="this.closest('figure').style.display='none'">
       <figcaption class="figure-caption text-center">
-        AI study plan — priority scores, estimated time, and suggested start dates
+        Class source step — onboarding adapts based on which platforms the student uses
       </figcaption>
     </figure>
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-4">
     <figure class="figure w-100">
-      <img src="../images/campusai-chat.png"
+      <img src="../images/campusai-onboarding-canvas.png"
            class="figure-img img-fluid rounded shadow-sm w-100"
-           alt="CampusAI AI chat"
+           alt="CampusAI Canvas connect step with step-by-step token instructions"
            onerror="this.closest('figure').style.display='none'">
       <figcaption class="figure-caption text-center">
-        AI chat — streaming responses for mid-week re-prioritization
+        Canvas connect — inline instructions eliminate the need for external documentation
       </figcaption>
     </figure>
   </div>
@@ -102,10 +102,10 @@ categories: [AI, React, FastAPI, Supabase, Python]
     <figure class="figure w-100">
       <img src="../images/campusai-settings.png"
            class="figure-img img-fluid rounded shadow-sm w-100"
-           alt="CampusAI settings page"
+           alt="CampusAI settings page showing Learning Suite iCal feeds for 6 courses"
            onerror="this.closest('figure').style.display='none'">
       <figcaption class="figure-caption text-center">
-        Settings — manage iCal feeds, study preferences, and weekly busy blocks
+        Settings — 6 Learning Suite courses connected via iCal, each with last-synced timestamp
       </figcaption>
     </figure>
   </div>
