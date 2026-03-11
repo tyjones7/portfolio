@@ -20,7 +20,7 @@ categories: [AI, React, FastAPI, Supabase, Python]
 ```{=html}
 <div class="d-flex justify-content-center gap-3 my-4 flex-wrap">
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://ai-scheduling-assistant-jade.vercel.app"
+     href="https://campusai-six.vercel.app"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
